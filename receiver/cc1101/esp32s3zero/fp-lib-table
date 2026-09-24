@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "s3zero_cc1101")(type "KiCad")(uri "${KIPRJMOD}/s3zero_cc1101.pretty")(options "")(descr "Project footprints: ESP32-S3-Zero, CC1101 11-pin module, 0805"))
+)

@@ -1,0 +1,80 @@
+(footprint "SolderJumper_2_open"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "JP2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64ace764-5665-4d74-a9ad-096484be417a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "LDO bypass (open)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1ee1c3e-970f-46de-9fab-2a959693ba0e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ac1d368-7472-4baa-91db-cdad736c81e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36f0eb6d-97ec-4814-be79-2d8088782b12")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2 -0.9)
+		(end 2 0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bcbd35e3-1ddc-498a-9d22-3a5b3a9fedff")
+	)
+	(pad "1" smd roundrect
+		(at -1 0)
+		(size 1.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "b483e011-c3eb-46a1-b467-ee3f24e4f714")
+	)
+	(pad "2" smd roundrect
+		(at 1 0)
+		(size 1.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "1ec3b87e-9174-40f4-93d8-27ef9f878892")
+	)
+	(embedded_fonts no)
+)

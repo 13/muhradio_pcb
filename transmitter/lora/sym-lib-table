@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "promini_rfm95w")(type "KiCad")(uri "${KIPRJMOD}/promini_rfm95w.kicad_sym")(options "")(descr "Project symbols"))
+)

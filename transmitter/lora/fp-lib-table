@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "promini_rfm95w")(type "KiCad")(uri "${KIPRJMOD}/promini_rfm95w.pretty")(options "")(descr "Project footprints: Pro Mini, RFM95W LoRa module, 0805"))
+)
