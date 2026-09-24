@@ -4,3 +4,9 @@
 fp-info-cache
 *.lck
 \#auto_saved_files\#
+
+# Generated knowledge graph (graphify update .)
+graphify-out/
+
+# Claude Code local settings
+.claude/settings.local.json
