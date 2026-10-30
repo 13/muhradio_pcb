@@ -1,0 +1,59 @@
+{
+  "part_intersections_mm3": {
+    "base/lid": 0.0,
+    "base/wall_mount": 0.0,
+    "base/battery_deck": 0.0,
+    "base/sensor_shelf": 0.0,
+    "lid/wall_mount": 0.0,
+    "lid/battery_deck": 0.0,
+    "lid/sensor_shelf": 0.0,
+    "wall_mount/battery_deck": 0.0,
+    "wall_mount/sensor_shelf": 0.0,
+    "battery_deck/sensor_shelf": 0.0
+  },
+  "mesh_checks": {
+    "base.stl": {
+      "watertight": true,
+      "positive_volume": true
+    },
+    "lid.stl": {
+      "watertight": true,
+      "positive_volume": true
+    },
+    "wall_mount.stl": {
+      "watertight": true,
+      "positive_volume": true
+    },
+    "battery_deck.stl": {
+      "watertight": true,
+      "positive_volume": true
+    },
+    "sensor_shelf.stl": {
+      "watertight": true,
+      "positive_volume": true
+    }
+  },
+  "nominal_envelope_intersections_mm3": {
+    "battery/base": 0.0,
+    "battery/lid": 0.0,
+    "battery/wall_mount": 0.0,
+    "battery/battery_deck": 0.0,
+    "battery/sensor_shelf": 0.0,
+    "carrier/base": 0.0,
+    "carrier/lid": 0.0,
+    "carrier/wall_mount": 0.0,
+    "carrier/battery_deck": 0.0,
+    "carrier/sensor_shelf": 0.0,
+    "sensor_board/base": 0.0,
+    "sensor_board/lid": 0.0,
+    "sensor_board/wall_mount": 0.0,
+    "sensor_board/battery_deck": 0.0,
+    "sensor_board/sensor_shelf": 0.0
+  },
+  "lid_lifts_freely_mm": [
+    0.6,
+    2.5,
+    5
+  ],
+  "magnet_face_gap_mm": 0.2
+}
